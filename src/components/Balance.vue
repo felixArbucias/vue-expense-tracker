@@ -6,10 +6,12 @@
 <script setup>
 import { defineProps } from 'vue';
 
+
 const props = defineProps({
     total: {
         type: Number,
         required: true,
     },
 });
+
 </script>
